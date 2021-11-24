@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+body {
+  background-color: black;
+  text-align: center;
+    color:white;
+}
+#header {
+    position:relative;
+    left:50%;
+    right:50%;
+    transform: translate(-50%, -50%);
+    top:20px;
+    width:200px;
+}
+.hr {
+    background-color:white;
+    width:99%;
+    height:1px;
+    margin-top:15px;
+    margin-bottom:15px;
+    position:relative;
+    left:50%;
+    right:50%;
+    transform: translate(-50%, -50%);
+}
+h1, h2, h3, h4, h5, h6, p {
+    font-family:Montserrat;
+    color:white;
+}
+h1 {
+  font-weight:700;
+  font-size: 200%;
+  color:red;
+}
+h1:hover {
+    cursor:pointer;
+}
+
+p {
+  font-size: 100%;
+  font-weight:400;
+  
+}
+
+a {
+    background-color:transparent;
+    border: 2px solid white;
+    border-radius:40px;
+    padding:7px;
+    font-size:110%;
+    font-family:Montserrat;
+    font-weight:500;
+    text-decoration:none;
+    color:white;
+    transition-duration:0.4s;
+    margin-left:5px;
+    margin-right:5px;
+    cursor:pointer;
+}
+a:hover {
+    background-color:white;
+    color:black;
+}
+input {
+    background-color:transparent;
+    border: 2px solid white;
+    border-radius:40px;
+    padding:7px;
+    font-size:110%;
+    font-family:Montserrat;
+    font-weight:500;
+    text-decoration:none;
+    color:white;
+    transition-duration:0.4s;
+    margin-left:5px;
+    margin-right:5px;
+}
+span[party] {
+    font-size:130%;
+}
+span[congrats] {
+    color:rgb(255,200,60);
+}
+p[victoryP] {
+    margin-bottom:30px;
+}
+#homePress {
+    display:none;
+    position:absolute;
+    top:200px;
+    left:50%;
+    right:50%;
+    transform: translate(-50%, -50%);
+    width:400px;
+    height:130px;
+    padding:10px;
+    border-radius:30px;
+    background-color:rgb(50,50,50);
+    border:5px solid white;
+}

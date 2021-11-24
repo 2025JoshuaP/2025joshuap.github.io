@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script src="../javascript/escape.js"></script>
+<title>Click Based - HTML Text Adventure Game</title>
+<link rel="stylesheet" href="../css/styles.css">
+
+<style>
+</style>
+
+
+</head>
+<body>
+<h1 onclick="homePress()" id="header">- Escape -</h1>
+    <div class="hr"></div>
+<h4>Basement</h4>
+<p>You walk downstairs and find a basement. The lights are off.</p>
+    <div class="hr"></div>
+<img src="../media/basement.jpg" style="width:250px;">
+    <div class="hr"></div><br><br>
+<a href="lightsOnHK.html">Turn on the lights</a><a href="exploreLightsOff.html">Explore with the lights off</a><a href="hallwayHK.html">Go back upstairs</a>
+<div id="homePress">
+    <p>Are you sure you want to go to the home page? You will lose all progress!</p>
+    <br>
+    <a href="../index.html">Yes</a>
+    <a onclick="homePressCancel()">Cancel</a>
+</div>
+</body>
+</html>
