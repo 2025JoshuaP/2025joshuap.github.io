@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="styles/style.css">
+    <script src="JS/script.js"></script>
+    <title>Construct 3 Game Demo</title>
+</head>
+<body id="body">
+    <h1><span id="aqua">CONSTRUCT 3 </span><span id="white">GAME DEMO</span></h1>
+    <iframe id="gamePrev" src="game.html" frameborder="0"></iframe>
+    <button id="quitGame" onclick="quitGame()">Quit Game</button>
+    <div class="instructions">
+        <div class="blue">
+        Move Left: &nbsp; <keybind>&larr;</keybind><br><br>
+        Move Right: &nbsp; <keybind>&rarr;</keybind><br><br>
+        Jump: &nbsp; <keybind>&uarr;</keybind><br><br>
+        Jump-Thru: &nbsp; <keybind>&darr;</keybind><br><br><br>
+    </div><div class="orange">
+        Move Left: &nbsp; <keybind>A</keybind><br><br>
+        Move Right: &nbsp; <keybind>D</keybind><br><br>
+        Jump: &nbsp; <keybind>W</keybind><br><br>
+        Jump-Thru: &nbsp; <keybind>S</keybind><br><br>
+    </div>
+    </div>
+    <div class="icons" id="icons">
+        <i id="a" onclick="location.href='index.html'">home</i>
+        <i id="b">info</i>
+        <i id="c" onclick="location.href='layout.html'">dashboard</i>
+        <i id="expander" title="Expand" onclick="expand()">add</i>
+        <i id="d" onclick="location.href='eventSheet.html'">code</i>
+        <i id="e" onclick="location.href='gamePlay.html'">collections</i>
+        <i id="f" onclick="location.href='game.html'">play_arrow</i>
+    </div>
+</body>
+</html>
