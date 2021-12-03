@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="styles/style.css">
+    <script src="JS/script.js"></script>
+    <title>Construct 3 Game Demo</title>
+</head>
+<body id="body">
+    <h1><span id="aqua">CONSTRUCT 3 </span><span id="white">GAME DEMO</span></h1>
+    <iframe id="gamePrev" src="gameHTML/index.html" frameborder="0"></iframe>
+    <button id="quitGame" onclick="quitGame()">Quit Game</button>
+    <p id="p">EVENT SHEET</p>
+    <br><br><br>
+    <p>Here, you can see the start of the game. There are 2 players, a ball, 2 goals, a score count at the top, and some obstacles in the middle.</p>
+    <img src="../indexMedia/gameplay1.png" alt="gamplay1" style="width: 90%; margin-bottom: 30px;">
+    <p>This is the game in action, where the blue player has just hit the ball.</p>
+    <img src="../indexMedia/gameplay2.png" alt="gameplay2" style="width: 90%; margin-bottom: 30px;">
+    <p>This is the game when a player scores. As you can see, the blue player score was increased by one and the "BLUE SCORED!" text is displayed.</p>
+    <img src="../indexMedia/gameplay3.png" alt="gameplay2" style="width: 90%; margin-bottom: 30px;">
+    <p>The game ends when a player reaches ten points. It will display, "BLUE WINS!" or "ORANGE WINS!" and reset the game after a few seconds.</p>
+    <div class="icons" id="icons">
+        <i id="a" onclick="location.href='index.html'">home</i>
+        <i id="b" onclick="location.href='instructions.html'">info</i>
+        <i id="c" onclick="location.href='layout.html'">dashboard</i>
+        <i id="expander" title="Expand" onclick="expand()">add</i>
+        <i id="d" onclick="location.href='eventSheet.html'">code</i>
+        <i id="e">collections</i>
+        <i id="f" onclick="location.href='game.html'">play_arrow</i>
+    </div>  
+</body>
+</html>

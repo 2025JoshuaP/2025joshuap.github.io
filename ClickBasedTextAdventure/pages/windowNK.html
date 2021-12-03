@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script src="../javascript/escape.js"></script>
+<title>Click Based - HTML Text Adventure Game</title>
+<link rel="stylesheet" href="../css/styles.css">
+</head>
+<body>
+    <div class="home" onclick="location.href='../index.html'"></div>
+<h1 onclick="homePress()" id="header">- Escape -</h1>
+    <div class="hr"></div>
+<h4>Window</h4>
+<p>You open the curtains and look out the window. You see you are in an eerie looking neighborhood at night, with no lights on.</p>
+    <div class="hr"></div>
+<img src="../media/neighborhood.png">
+    <div class="hr"></div><br><br>
+<a href="creepybedroomNK.html">Back</a>
+<a href="jumpOutWindowNK.html">Jump out the window</a>
+<div id="homePress">
+    <p>Are you sure you want to go to the home page? You will lose all progress!</p>
+    <br>
+    <a href="../index.html">Yes</a>
+    <a onclick="homePressCancel()">Cancel</a>
+</div>
+
+</body>
+</html>

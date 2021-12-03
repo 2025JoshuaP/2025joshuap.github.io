@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="styles/style.css">
+    <script src="JS/script.js"></script>
+    <title>Construct 3 Game Demo</title>
+</head>
+<body id="body">
+    <h1><span id="aqua">CONSTRUCT 3 </span><span id="white">GAME DEMO</span></h1>
+    <iframe id="gamePrev" src="gameHTML/index.html" frameborder="0"></iframe>
+    <button id="quitGame" onclick="quitGame()">Quit Game</button>
+    <p id="p">This is my first game made with Construct 3.</p>
+    <p id="p">This game consists of a ball, 2 players, 2 goals and a few platforms. Each player can jump around on the platforms, as well as fall through certain platforms - the platforms above and below the goals that keep the ball from going in from those angles. The ball is very bouncy and reacts to the player colliding with it, making this a soccer-like game where the goal is to score the ball in the opponent’s net/goal. The game starts at 0-0, with 1 being added to the player that scored a goal; the first player to 10 goals is the winner of the game. The blue player can move around with arrow keys, while the orange player moves around with WASD.</p>
+
+    <div class="icons" id="icons">
+        <i id="a">home</i>
+        <i id="b" onclick="location.href='instructions.html'">info</i>
+        <i id="c" onclick="location.href='layout.html'">dashboard</i>
+        <i id="expander" title="Expand" onclick="expand()">add</i>
+        <i id="d" onclick="location.href='eventSheet.html'">code</i>
+        <i id="e" onclick="location.href='gamePlay.html'">collections</i>
+        <i id="f" onclick="location.href='game.html'">play_arrow</i>
+    </div>
+</body>
+</html>

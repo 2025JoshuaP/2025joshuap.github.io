@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script src="../javascript/escape.js"></script>
+<title>Click Based - HTML Text Adventure Game</title>
+<link rel="stylesheet" href="../css/styles.css">
+
+<style>
+</style>
+
+
+</head>
+<body>
+    <div class="home" onclick="location.href='../index.html'"></div>
+<h1 onclick="homePress()" id="header">- Escape -</h1>
+    <div class="hr"></div>
+<h4>Room at End of Hallway</h4>
+<p>You open the door with the key you found in the drawer of the bedroom. Inside, there is an empty room with but one door.</p>
+    <div class="hr"></div>
+<img src="../media/endDoor.jfif" style="width:250px;">
+    <div class="hr"></div><br><br>
+<a href="endDoor.html">Open the door</a><a href="hallwayHK.html">Back</a>
+<div id="homePress">
+    <p>Are you sure you want to go to the home page? You will lose all progress!</p>
+    <br>
+    <a href="../index.html">Yes</a>
+    <a onclick="homePressCancel()">Cancel</a>
+</div>
+
+</body>
+</html>

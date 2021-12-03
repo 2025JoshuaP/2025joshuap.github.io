@@ -1,0 +1,118 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap");
+@import url("https://fonts.googleapis.com/icon?family=Material+Icons");
+body {
+  text-align: center;
+  background-color: rgb(30, 30, 30);
+  margin-left: 20px;
+  margin-right: 20px;
+}
+i {
+  font-family: "Material Icons";
+  font-style: normal;
+  padding: 5px;
+  border-radius: 50%;
+  font-size: 30px;
+  transition: 0.3s;
+}
+i#a,
+i#b,
+i#c,
+i#d,
+i#e,
+i#f {
+  cursor: default;
+}
+i:hover {
+  background-color: rgba(30, 30, 30, 0.3);
+}
+i#expander {
+  font-size: 50px;
+  cursor: pointer;
+}
+div.icons {
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 50px;
+  height: 50px;
+  background-color: rgb(200, 200, 200);
+  color: rgb(30, 30, 30);
+  padding: 5px;
+  border-radius: 50px;
+  margin-top: 50px;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: 0.4s;
+  margin-bottom: 100px;
+}
+h1 {
+  font-family: Montserrat;
+  font-size: 50px;
+  font-weight: 800;
+}
+span#aqua {
+  color: aqua;
+}
+span#white {
+  color: white;
+  font-weight: 700;
+}
+p {
+  color: white;
+  font-family: Montserrat;
+}
+div.instructions {
+  color: white;
+  font-family: Montserrat;
+  font-size: 26px;
+}
+keybind {
+  padding: 7px;
+  border: 2px solid white;
+  border-radius: 10px;
+}
+iframe {
+  margin: auto;
+  width: 80vw;
+  height: 45vw;
+  display: none;
+}
+button {
+  margin: auto;
+  margin-top: 20px;
+  background: transparent;
+  font-family: Montserrat;
+  color: white;
+  border: 3px solid white;
+  border-radius: 20px;
+  font-size: 18px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  font-weight: 500;
+}
+button:hover {
+  color: rgb(30, 30, 30);
+  background-color: white;
+}
+button#quitGame {
+  display: none;
+}
+div.blue {
+  color: dodgerblue;
+}
+div.blue keybind {
+  border-color: dodgerblue;
+}
+div.orange {
+  color: orange;
+}
+div.orange keybind {
+  border-color: orange;
+}
+@media (max-width: 760px) {
+  h1 {
+    font-size: 40px;
+  }
+}
